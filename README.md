@@ -18,7 +18,7 @@
 
 
 
- #### Refrence 
+ ### Refrence:
  * [Official Typescript Documentation](https://www.typescriptlang.org/docs/).
  * [Brad-Travesy crash course](https://www.youtube.com/watch?v=BCg4U1FzODs).
 
