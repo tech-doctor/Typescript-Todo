@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO(Typescript)</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <div class="todo">
+      <header>
+        <h2>Tasks</h2>
+      </header> 
+      <div class="body">
+      <section class="section-1">
+        <div class="heading">
+          Add a task
+        </div>
+        <div class="form">
+            <form>
+              <input class="text-input" type="text" name="task" placeholder="Enter task" autocomplete="off" required/>
+              <input onclick="addTodo(event)" class="add-button" type="submit" value="Add" />
+            </form>
+        </div>
+    </section>
+    <section class="section-2">
+      <div class="tasks">
+        <ul>
+          <!-- Task List -->
+        </ul>
+      </div>
+    </section>
+      </div>  
+  <script src = "dist/script.js"></script>   
+</body>  
+</html>

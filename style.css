@@ -1,0 +1,87 @@
+body {
+  background-color: #c2c2c2;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+.todo {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  padding: 10px 0px;
+  background-color: white;
+  margin: auto;
+  margin-top: 40px;
+  width: 50%;
+}
+
+.todo .body {
+  padding: 5px 25px;
+}
+.todo .body .section-1 .heading {
+  font-size: 15px;
+  font-weight: bold;
+}
+.todo .body .section-1 .form form {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.form form .text-input {
+  width: 70%;
+  padding: 6px;
+  border: 1px solid #0c7bfb;
+  border-radius: 3px;
+  outline: blue;
+}
+
+.form form .add-button {
+  width: 25%;
+  padding: 4px;
+  margin-left: 5%;
+  border: none;
+  border-radius: 3px;
+  background-color: #0c7bfb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.section-2 {
+}
+.section-2 .tasks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section-2 .tasks ul li {
+  border-bottom: 1px solid grey;
+  padding: 5px 0px;
+}
+
+.section-2 .tasks ul li input {
+  cursor: pointer;
+}
+
+.section-2 .tasks ul li span {
+  cursor: pointer;
+  float: right;
+  color: grey;
+  padding-right: 5px;
+}
+
+.section-2 .tasks ul li span:hover {
+  color: black;
+}
+
+.line_through {
+  text-decoration: line-through;
+}
+
+@media screen and (max-width: 700px) {
+  .todo {
+    width: 90%;
+  }
+}
